@@ -17,4 +17,4 @@ VS Code <br>
 
 ### Recommendation
 
-I recommend that we make the filter search for data table more powerful and user friendly. Potentially we can add a clear filter tab to improve user experience and a sorting feature to further drill down to the data the user is looking for. 
+I recommend further improving the filter search for our data table. Our next step would be expanding its functionality and making it more user friendly. Potentially we can add a clear filter tab to improve user experience and ease of use. Also, adding a sorting feature to further drill down to the data the user is looking for would improve the website. 
