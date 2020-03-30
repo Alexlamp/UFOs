@@ -49,19 +49,48 @@
                         <input type="text" placeholder="1/10/2010" id="datetime" />
                   </li>
                   <li class = 'bg-dark list-group-item'>
-                  </li>
-                     <button id="filter-btn" type="button" class="btn btn-dark">
-                       Filter Table
-                     </button>
-                  </li>
-                </ul>
-               </form>
-    
+                    <label for = 'city'>Enter City</label>
+                    <input type = 'text' style='text-transform:lowercase' placeholder = 'e.g. benton' id = 'selcity'/>
                 </li>
-
+                <li class = 'bg-dark list-group-item'>
+                    <label for = 'state'>Enter State</label>
+                    <input type = 'text' style='text-transform:lowercase'placeholder = 'e.g. ca' id = 'selstate'/>
+                </li>
+                <li class = 'bg-dark list-group-item'>
+                    <label for = 'country'>Enter Country</label>
+                    <input type = 'text' style='text-transform:lowercase' placeholder = 'e.g. us' id = 'selcountry'/>
+                </li>
+                <li class = 'bg-dark list-group-item'>
+                    <label for = 'shape'>Select Shape</label>
+                    <select padding-left 50px id = 'filter-shape'>
+                        <option></option> 
+                        <option value = 'circle'>circle</option>
+                        <option value = 'light'>light</option>
+                        <option value = 'triangle'>triangle</option>
+                        <option value = 'unknown'>unknown</option>
+                        <option value = 'fireball'>fireball</option>
+                        <option value = 'formation'>formation</option>
+                        <option value = 'other'>other</option>
+                        <option value = 'sphere'>sphere</option>
+                        <option value = 'disk'>disk</option>
+                        <option value = 'chevron'>chevron</option>
+                        <option value = 'rectangle'>rectangle</option>
+                        <option value = 'cross'>cross</option>
+                        <option value = 'flash'>flash</option>
+                        <option value = 'changing'>changing</option>
+                        <option value = 'oval'>oval</option>
+                        <option value = 'cigar'>cigar</option>
+                        <option value = 'teardrop'>teardrop</option>
+                        <option value = 'cylinder'>cylinder</option>
+                    </select>
+                </li>      
+                <li>
+                    <button id = 'filter-btn' type = 'button' class = 'btn btn-dark'>Filter Table</button>
+                </li>   
+                  
             </ul>
-
-        </div>
+        </form>
+    </div>
         <div class="col-md-9">
             <table class="table table-striped">
             <thead>
