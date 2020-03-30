@@ -62,21 +62,7 @@ function updateFilters() {
     } else {
       filters['shape'] = null
     };
-  // let filteredData = tableData;
-  // Check to see if a date was entered and filter the
-  // data using that date.
   
-    // Apply `filter` to the table data to only keep the
-    // rows where the `datetime` value matches the filter value
-    
-  // Rebuild the table using the filtered data
-  // @NOTE: If no date was entered, then filteredData will
-  // just be the original tableData.
-  // Save the element, value, and id of the filter that was changed
-  // If a filter value was entered then add that filterId and value
-  // to the filters list. Otherwise, clear that filter from the filters object
-
-  // Call function to apply all filters and rebuild the table
   filterTable();
 }
 
